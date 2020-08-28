@@ -11,6 +11,9 @@ namespace SDK.Interface
     /// </summary>
     public interface IAppEnableEvent
     {
+        /// <summary>
+        /// 启动事件
+        /// </summary>
         void AppEnableEvent();
     }
 }

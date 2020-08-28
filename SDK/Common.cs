@@ -10,7 +10,13 @@ namespace SDK
 {
     public static class Common
     {
+        /// <summary>
+        /// 依赖注入
+        /// </summary>
         public static IUnityContainer unityContainer;
+        /// <summary>
+        /// 小栗子API 
+        /// </summary>
         public static API xlzAPI = new API();
     }
 }

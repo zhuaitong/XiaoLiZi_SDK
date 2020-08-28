@@ -13,6 +13,10 @@ namespace SDK.Interface
     /// </summary>
     public interface IRecvicetPrivateMessage
     {
+        /// <summary>
+        /// 接收好友信息
+        /// </summary>
+        /// <param name="e"></param>
         void RecvicetPrivateMsg(PrivateMessageEvent e);
     }
 }

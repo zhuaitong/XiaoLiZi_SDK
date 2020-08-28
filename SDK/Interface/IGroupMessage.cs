@@ -12,6 +12,10 @@ namespace SDK.Interface
     /// </summary>
     public interface IGroupMessage
     {
+        /// <summary>
+        /// 接收群消息
+        /// </summary>
+        /// <param name="e"></param>
         void ReceviceGroupMsg(GroupMessageEvent e);
     }
 }

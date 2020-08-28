@@ -199,7 +199,7 @@ namespace SDK.Core
             return list;
         }
         /// <summary>
-        /// 取群成员列表
+        /// 取群成员列表  --- 已知有bug暂未修复
         /// </summary>
         /// <param name="thisQQ"></param>
         /// <param name="gruopNumber"></param>
