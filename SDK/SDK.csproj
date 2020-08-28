@@ -100,7 +100,6 @@
     <Compile Include="Events\ServiceInfo.cs" />
     <Compile Include="Interface\IAppEnableEvent.cs" />
     <Compile Include="Interface\IGroupMessage.cs" />
-    <Compile Include="Interface\IPrivateMessage.cs" />
     <Compile Include="Interface\IRecvicetPrivateMessage.cs" />
     <Compile Include="Model\FriendInfo.cs" />
     <Compile Include="Model\GroupInfo.cs" />

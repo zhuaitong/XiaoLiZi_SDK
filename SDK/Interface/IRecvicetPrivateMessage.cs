@@ -8,6 +8,9 @@ using static SDK.Core.XLZMain;
 
 namespace SDK.Interface
 {
+    /// <summary>
+    /// 接收好友信息
+    /// </summary>
     public interface IRecvicetPrivateMessage
     {
         void RecvicetPrivateMsg(PrivateMessageEvent e);

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SDK.Interface
 {
+    /// <summary>
+    /// 启动事件
+    /// </summary>
     public interface IAppEnableEvent
     {
         void AppEnableEvent();

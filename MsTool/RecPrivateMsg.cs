@@ -19,8 +19,12 @@ namespace MsTool
             //Common.xlzAPI.SendPrivateMessage(e.ThisQQ, e.SenderQQ, "欢迎使用小栗子SDK");
             //Common.xlzAPI.RecviceImage(Marshal.PtrToStringAnsi(e.MessageContent), e.ThisQQ, e.SenderQQ);
             //Common.xlzAPI.GetFriendList(e.ThisQQ);
-            //Common.xlzAPI.Getgrouplist(e.ThisQQ);
-            Common.xlzAPI.GetgroupMemberlist(e.ThisQQ, 535107725);
+            List<SDK.Model.GroupInfo> groupInfos = Common.xlzAPI.Getgrouplist(e.ThisQQ);
+            if (groupInfos != null)
+            {
+                Common.xlzAPI.GetgroupMemberlist(e.ThisQQ, groupInfos[0].GroupID);
+            }
+            
         }
     }
 }
