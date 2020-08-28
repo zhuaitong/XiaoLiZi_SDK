@@ -10,3 +10,5 @@ MsTool是简单Demo，可删除
    创建自己的项目，如MsTool，并引用SDK--->在xiaoLiZi项目中引用自己创建的项目--->在自己的项目创建类实现SDK接口（Interface），如RecPrivateMsg--->在xiaoLiZi项目RegisterCore 注册
 
 xiaoLiZi项目AppRun类中可以配置插件说明SetAppInfo和权限SetProperty
+
+目前只实现基本功能，有需要其他接口的请大佬自行实现，欢迎pull requests
